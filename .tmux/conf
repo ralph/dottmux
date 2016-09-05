@@ -193,12 +193,12 @@ setw -g mode-keys vi
 #set-window-option -g clock-mode-colour colour64 #green
 
 # tpm
-set-environment -g TMUX_PLUGIN_MANAGER_PATH '~/.config/tmux/plugins'
+set-environment -g TMUX_PLUGIN_MANAGER_PATH '~/.tmux/plugins'
 
 # continuum/resurrect
 set -g @continuum-restore 'on'
-set -g @continuum-save-interval '300'
-set -g @resurrect-dir '~/.config/tmux/resurrect'
+set -g @continuum-save-interval '600'
+set -g @resurrect-dir '~/.tmux/resurrect'
 set -g @resurrect-strategy-nvim 'session'
 
 
