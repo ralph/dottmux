@@ -197,7 +197,7 @@ set-environment -g TMUX_PLUGIN_MANAGER_PATH '~/.config/tmux/plugins'
 
 # continuum/resurrect
 set -g @continuum-restore 'on'
-set -g @continuum-save-interval '600'
+set -g @continuum-save-interval '300'
 set -g @resurrect-dir '~/.config/tmux/resurrect'
 set -g @resurrect-strategy-nvim 'session'
 
