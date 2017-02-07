@@ -1,0 +1,10 @@
+*
+!/.gitignore.d
+!/.gitignore.d/tmux
+!/.tmux
+!/.tmux.conf
+!/.tmux/.gitignore
+!/.tmux/osx.conf
+!/.tmux/plugins
+!/.tmux/plugins/tpm
+!/.tmux/statusbar.conf
